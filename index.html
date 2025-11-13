@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-04/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/loaders.css/0.1.2/loaders.min.css"
+    />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-BkVuWn-o.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-CQAy3AiN.css">
+  </head>
+  <body>
+    <form id="search-form" class="form">
+      <input
+        type="text"
+        name="searchQuery"
+        placeholder="Search images..."
+        autocomplete="off"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <ul class="gallery" id="gallery"></ul>
+
+    <div id="controls" style="text-align: center; margin-top: 20px">
+      <button id="load-more-btn" class="hidden">Load more</button>
+      <span class="loader hidden" id="loader"></span>
+    </div>
+
+  </body>
+</html>
