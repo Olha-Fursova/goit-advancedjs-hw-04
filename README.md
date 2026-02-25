@@ -26,15 +26,15 @@ By completing this homework, I reinforced my understanding of:
 ### Project Structure
 goit-advancedjs-hw-03/
 
-├── index.html 
-├── js/ 
-│ ├── main.js 
-│ ├── pixabay-api.js 
-│ └── render-functions.js 
-├── css/ 
-├── .gitignore 
-├── .prettierrc 
-└── README.md
+├── index.html  
+├── js/  
+│ ├── main.js  
+│ ├── pixabay-api.js  
+│ └── render-functions.js  
+├── css/  
+├── .gitignore  
+├── .prettierrc  
+└── README.md 
 
 ## Image Search App
 The application allows users to enter a keyword in a search field and send a request to the Pixabay API. After receiving matching images: view them in a styled gallery. User also can open large versions of an image in a modal window. For better workflow and loading weight there is a button to Load more, that continues rendering images without restarting the current fetch request.
